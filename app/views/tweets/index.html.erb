@@ -1,8 +1,7 @@
 <p id="notice"><%= notice %></p>
 
 <h1>Litter</h1>
-
-
+<%= link_to 'New Tweet', new_tweet_path, class: "btn btn-success btn-lg" %>
 
 <center>
 <% @tweets.each do |tweet| %>
@@ -15,4 +14,3 @@
 
 <br>
 
-<%= link_to 'New Tweet', new_tweet_path %>
