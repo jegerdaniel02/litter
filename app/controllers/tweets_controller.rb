@@ -4,9 +4,8 @@ class TweetsController < ApplicationController
   # GET /tweets
   # GET /tweets.json
   def index
-    @tweets = Tweet.all
+   
     
-    @random_tweet_body = @tweets.sample.body
   end
 
   # GET /tweets/1
